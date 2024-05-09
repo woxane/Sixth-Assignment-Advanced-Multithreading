@@ -12,9 +12,10 @@ public class Controller {
      * Similar to a lock, a single instance of the Semaphore class must be shared between multiple
      threads, otherwise the threads won't be synchronized.
 
-     * You are allowed to add new code to any of the three provided classes or change the existing
-     lines of code, as long as you use a Semaphore to solve this problem.
-     * Every time a thread accesses the resource, print its name and the system time.
+     * You are allowed to add new code to any of the three provided classes.
+     * Do NOT change any existing lines of code. You can add new attributes and method parameters.
+
+     * Note that every time a thread accesses the resource, you must print its Name and the System Time.
      */
 
     public static void main(String[] args) {
@@ -29,5 +30,13 @@ public class Controller {
         operator3.start();
         operator4.start();
         operator5.start();
+
+        /*
+        TODO
+            Use a Semaphore to solve the synchronization problem.
+            Every time a thread accesses the resource, print its Name and the current System Time.
+            Combine the 4 resulting blocks to create the final matrix product and return it.
+         */
+
     }
 }

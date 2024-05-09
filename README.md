@@ -18,9 +18,8 @@ In this assignment, you are given three problems focused on various areas of mul
 
    - `Calculate Pi`: Calculate the value of Pi up to 1000 digits after the floating point. Find 
      more instructions in the `PiCalculator` class.
-   - `Priority Simulator`: Manage three different thread types and ensure the order of execution between them is correctly handled. Try to use a `CountDownLatch` for this exercise. Find more instructions in the `Runner` class.
    - `Semaphore`: Solve a synchronization problem using a Semaphore that allows 2 threads to enter the critical section.  Find more instructions in the `Controller` class.
-3. Write a comprehensive report on all exercises.
+3. Write a comprehensive report on the assignment.
 
 
 ## Notes
@@ -36,7 +35,7 @@ solutions you chose for each exercise but try to focus on the `Calculate Pi` pro
 <br>You MUST include the following details in your report:
 - The solutions you chose for each exercise and how you implemented them
 - All mathematical algorithms you tried and used for the `Calculate Pi` problem
-- Details on the final algorithm you chose for calculating Pi and its benefits over other algorithms
+- Details on the final algorithm you chose for calculating Pi and its advantages over other algorithms
 - Explanation regarding Semaphore and its use cases
 - All References and Resources (include links where possible)
 
@@ -61,4 +60,4 @@ Including graphs, charts, and other appropriate visuals can grant bonus points.
 5. Submit a pull request to merge the `develop` branch with `main`.
 
 
-The deadline for submitting your code is Wednesday, May 15 (26th of Ordibehesht). Good luck!
+The deadline for submitting your code is Friday, May 17 (28th of Ordibehesht). Good luck!

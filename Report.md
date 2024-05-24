@@ -17,7 +17,9 @@ In this report, I will outline the implementation details of a multithreaded pro
 ### BBP Algorithm for Pi Calculation
 The BBP algorithm utilizes series summation to calculate π. It involves iterating over terms of the series, computing each term independently, and summing them up to approximate π. The advantage of the BBP formula lies in its rapid convergence, allowing for efficient computation of π to a high degree of accuracy.
 
-The BBP formula used in this implementation involves summing terms of the form <img src="https://latex.codecogs.com/svg.latex?\Large&space;\frac{1}{16^k} \cdot \left( \frac{4}{8k+1} - \frac{2}{8k+4} - \frac{1}{8k+5} - \frac{1}{8k+6} \right)" title="\Large \frac{1}{16^k} \cdot \left( \frac{4}{8k+1} - \frac{2}{8k+4} - \frac{1}{8k+5} - \frac{1}{8k+6} \right)" />.
+The BBP formula used in this implementation involves summing terms of the form  :
+
+![BBP](BBP.png)
 
 ### References and Resources
 - Wikipedia:
